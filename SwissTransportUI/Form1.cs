@@ -41,6 +41,37 @@ namespace SwissTransportUI
                     box_start.Items.Add(item.Name);
                 }
             }
+
+            if (box_start.Items.Count > 0)
+            {
+                box_start.SelectedIndex = 0;
+            }
+            else
+            {
+                box_start.Text = null;
+            }
+        }
+
+        private void txt_dest_TextChanged(object sender, EventArgs e)
+        {
+            Stations stations = Transport.GetStations(txt_dest.Text);
+            box_dest.Items.Clear();
+            foreach (var item in stations.StationList)
+            {
+                if (item.Name != null)
+                {
+                    box_dest.Items.Add(item.Name);
+                }
+            }
+
+            if (box_dest.Items.Count > 0)
+            {
+                box_dest.SelectedIndex = 0;
+            }
+            else
+            {
+                box_dest.Text = null;
+            }
         }
     }
 }

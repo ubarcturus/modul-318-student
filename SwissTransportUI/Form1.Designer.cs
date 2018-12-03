@@ -104,6 +104,7 @@
             this.txt_dest.Name = "txt_dest";
             this.txt_dest.Size = new System.Drawing.Size(206, 20);
             this.txt_dest.TabIndex = 7;
+            this.txt_dest.TextChanged += new System.EventHandler(this.txt_dest_TextChanged);
             // 
             // Form1
             // 
