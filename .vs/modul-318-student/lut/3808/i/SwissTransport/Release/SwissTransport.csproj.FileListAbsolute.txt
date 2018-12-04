@@ -7,3 +7,8 @@ C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut
 C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\11432\i\SwissTransport\Release\SwissTransport.csproj.CoreCompileInputs.cache
 C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\11432\i\SwissTransport\Release\SwissTransport.csproj.CopyComplete
 C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\11432\i\SwissTransport\Release\SwissTransport.dll
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\3808\b\src\SwissTransport\bin\Release\SwissTransport.dll
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\3808\i\SwissTransport\Release\SwissTransport.csprojAssemblyReference.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\3808\i\SwissTransport\Release\SwissTransport.csproj.CoreCompileInputs.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\3808\i\SwissTransport\Release\SwissTransport.csproj.CopyComplete
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\3808\i\SwissTransport\Release\SwissTransport.dll

@@ -8,3 +8,8 @@ C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut
 C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\11432\i\SwissTransportTest\Release\SwissTransportTest.csproj.CoreCompileInputs.cache
 C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\11432\i\SwissTransportTest\Release\SwissTransportTest.csproj.CopyComplete
 C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\11432\i\SwissTransportTest\Release\SwissTransportTest.dll
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\3808\b\tests\SwissTransportTest\bin\Release\SwissTransportTest.dll
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\3808\i\SwissTransportTest\Release\SwissTransportTest.csprojAssemblyReference.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\3808\i\SwissTransportTest\Release\SwissTransportTest.csproj.CoreCompileInputs.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\3808\i\SwissTransportTest\Release\SwissTransportTest.csproj.CopyComplete
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\3808\i\SwissTransportTest\Release\SwissTransportTest.dll
