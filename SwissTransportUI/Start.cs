@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SwissTransport;
+using SwissTransportUI;
 
 namespace SwissTransportUI
 {
@@ -20,6 +21,11 @@ namespace SwissTransportUI
                 if (item.Name != null)
                 {
                     StationsList.Add(item.Name);
+                }
+
+                if (item.Id != string.Empty)
+                {
+                    Form1.IdList.Add(item.Id);
                 }
             }
 
