@@ -13,11 +13,11 @@ namespace SwissTransportUI
 {
     public partial class Form1 : Form
     {
-        private Transport Transport = new Transport();
-        private ButtonSearchConnections ButtonSearchConnections = new ButtonSearchConnections();
-        private Start Start = new Start();
-        private Dest Dest = new Dest();
-        private ButtonSearchDepartures ButtonSearchDepartures = new ButtonSearchDepartures();
+        private Transport _transport = new Transport();
+        private ButtonSearchConnections _buttonSearchConnections = new ButtonSearchConnections();
+        private Start _start = new Start();
+        private Dest _dest = new Dest();
+        private ButtonSearchDepartures _buttonSearchDepartures = new ButtonSearchDepartures();
         public static List<string> IdList = new List<string>();
 
         public Form1()
@@ -28,7 +28,7 @@ namespace SwissTransportUI
         private void btn_search_connections_Click(object sender, EventArgs e)
         {
             lst_list.Items.Clear();
-            List<string> tempConnections = ButtonSearchConnections.SearchConnections(txt_start.Text, txt_dest.Text);
+            List<string> tempConnections = _buttonSearchConnections.SearchConnections(txt_start.Text, txt_dest.Text);
 
             foreach (var item in tempConnections)
             {
@@ -39,7 +39,7 @@ namespace SwissTransportUI
         private void txt_start_TextChanged(object sender, EventArgs e)
         {
             box_start.Items.Clear();
-            List<string> tempStation = Start.SearchStart(txt_start.Text);
+            List<string> tempStation = _start.SearchStart(txt_start.Text);
 
             foreach (var item in tempStation)
             {
@@ -59,7 +59,7 @@ namespace SwissTransportUI
         private void txt_dest_TextChanged(object sender, EventArgs e)
         {
             box_dest.Items.Clear();
-            List<string> tempStation = Dest.SearchDest(txt_dest.Text);
+            List<string> tempStation = _dest.SearchDest(txt_dest.Text);
 
             foreach (var item in tempStation)
             {
@@ -79,7 +79,7 @@ namespace SwissTransportUI
         private void btn_search_departures_Click(object sender, EventArgs e)
         {
             lst_list.Items.Clear();
-            List<string> tempDepartures = ButtonSearchDepartures.SearchDepartures(txt_start.Text, IdList[box_start.SelectedIndex]);
+            List<string> tempDepartures = _buttonSearchDepartures.SearchDepartures(txt_start.Text, IdList[box_start.SelectedIndex]);
 
             foreach (var item in tempDepartures)
             {

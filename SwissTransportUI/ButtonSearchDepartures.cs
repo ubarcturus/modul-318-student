@@ -9,19 +9,19 @@ namespace SwissTransportUI
 {
     class ButtonSearchDepartures
     {
-        Transport Transport = new Transport();
-        ButtonSearchConnections ButtonSearch = new ButtonSearchConnections();
+        Transport _transport = new Transport();
+        ButtonSearchConnections _buttonSearch = new ButtonSearchConnections();
 
-        public List<string> SearchDepartures(string Destination, string ID )
+        public List<string> SearchDepartures(string destination, string id )
         {
-            List<string> DeparturesList = new List<string>();
-            StationBoardRoot departures = Transport.GetStationBoard(Destination, ID);
+            List<string> departuresList = new List<string>();
+            StationBoardRoot departures = _transport.GetStationBoard(destination, id);
             foreach (var item in departures.Entries)
             {
-                DeparturesList.Add("Verbindung nach:\t" + item.To + " um " + ButtonSearch.FormatTime(item.Stop.Departure.ToString()));
+                departuresList.Add("Verbindung nach:\t" + item.To + " um " + _buttonSearch.FormatTime(item.Stop.Departure.ToString()));
             }
 
-            return DeparturesList;
+            return departuresList;
         }
     }
 }

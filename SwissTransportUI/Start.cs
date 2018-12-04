@@ -10,17 +10,17 @@ namespace SwissTransportUI
 {
     class Start
     {
-        Transport Transport = new Transport();
+        Transport _transport = new Transport();
 
-        public List<string> SearchStart(string TextStart)
+        public List<string> SearchStart(string textStart)
         {
-            List<string> StationsList = new List<string>();
-            Stations stations = Transport.GetStations(TextStart);
+            List<string> stationsList = new List<string>();
+            Stations stations = _transport.GetStations(textStart);
             foreach (var item in stations.StationList)
             {
                 if (item.Name != null)
                 {
-                    StationsList.Add(item.Name);
+                    stationsList.Add(item.Name);
                 }
 
                 if (item.Id != string.Empty)
@@ -29,7 +29,7 @@ namespace SwissTransportUI
                 }
             }
 
-            return StationsList;
+            return stationsList;
         }
     }
 }

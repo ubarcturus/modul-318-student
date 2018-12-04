@@ -16,7 +16,7 @@ namespace SwissTransport
             {
                 var message = new StreamReader(responseStream).ReadToEnd();
                 var stations = JsonConvert.DeserializeObject<Stations>(message
-                    , new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore });
+                    , new JsonSerializerSettings {NullValueHandling = NullValueHandling.Ignore});
                 return stations;
             }
 
@@ -25,7 +25,8 @@ namespace SwissTransport
 
         public StationBoardRoot GetStationBoard(string station, string id)
         {
-            var request = CreateWebRequest("http://transport.opendata.ch/v1/stationboard?Station=" + station + "&id=" + id);
+            var request =
+                CreateWebRequest("http://transport.opendata.ch/v1/stationboard?Station=" + station + "&id=" + id);
             var response = request.GetResponse();
             var responseStream = response.GetResponseStream();
 
@@ -42,7 +43,8 @@ namespace SwissTransport
 
         public Connections GetConnections(string fromStation, string toStattion)
         {
-            var request = CreateWebRequest("http://transport.opendata.ch/v1/connections?from=" + fromStation + "&to=" + toStattion);
+            var request = CreateWebRequest("http://transport.opendata.ch/v1/connections?from=" + fromStation + "&to=" +
+                                           toStattion);
             var response = request.GetResponse();
             var responseStream = response.GetResponseStream();
 
@@ -64,7 +66,7 @@ namespace SwissTransport
 
             webProxy.Credentials = CredentialCache.DefaultNetworkCredentials;
             request.Proxy = webProxy;
-            
+
             return request;
         }
     }
