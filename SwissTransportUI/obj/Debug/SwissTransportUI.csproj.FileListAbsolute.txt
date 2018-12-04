@@ -1,0 +1,15 @@
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\bin\Debug\SwissTransportUI.exe.config
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\bin\Debug\SwissTransportUI.exe
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\bin\Debug\SwissTransportUI.pdb
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\obj\Debug\SwissTransportUI.csprojAssemblyReference.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\obj\Debug\SwissTransportUI.Properties.Resources.resources
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\obj\Debug\SwissTransportUI.csproj.GenerateResource.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\obj\Debug\SwissTransportUI.csproj.CoreCompileInputs.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\obj\Debug\SwissTransportUI.exe
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\obj\Debug\SwissTransportUI.pdb
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\obj\Debug\SwissTransportUI.Form1.resources
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\bin\Debug\SwissTransport.dll
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\bin\Debug\SwissTransport.pdb
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\SwissTransportUI\obj\Debug\SwissTransportUI.csproj.CopyComplete

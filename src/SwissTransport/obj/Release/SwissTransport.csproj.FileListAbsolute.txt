@@ -1,0 +1,9 @@
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\src\SwissTransport\bin\Release\SwissTransport.dll
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\src\SwissTransport\bin\Release\SwissTransport.pdb
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\src\SwissTransport\bin\Release\Newtonsoft.Json.dll
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\src\SwissTransport\bin\Release\Newtonsoft.Json.xml
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\src\SwissTransport\obj\Release\SwissTransport.csprojAssemblyReference.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\src\SwissTransport\obj\Release\SwissTransport.csproj.CoreCompileInputs.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\src\SwissTransport\obj\Release\SwissTransport.csproj.CopyComplete
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\src\SwissTransport\obj\Release\SwissTransport.dll
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\src\SwissTransport\obj\Release\SwissTransport.pdb
