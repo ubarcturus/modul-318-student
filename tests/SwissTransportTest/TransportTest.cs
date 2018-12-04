@@ -5,7 +5,7 @@ namespace SwissTransport
     [TestClass]
     public class TransportTest
     {
-        private ITransport testee;
+        ITransport testee;
 
         [TestMethod]
         public void Locations()

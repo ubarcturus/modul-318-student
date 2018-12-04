@@ -1,5 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
 // Allgemeine Informationen über eine Assembly werden über die folgenden

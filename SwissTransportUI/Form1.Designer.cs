@@ -30,13 +30,13 @@
         {
             this.box_start = new System.Windows.Forms.ComboBox();
             this.box_dest = new System.Windows.Forms.ComboBox();
-            this.lbl_from = new System.Windows.Forms.Label();
-            this.lbl_to = new System.Windows.Forms.Label();
             this.btn_search_connentions = new System.Windows.Forms.Button();
             this.lst_list = new System.Windows.Forms.ListBox();
             this.txt_start = new System.Windows.Forms.TextBox();
             this.txt_dest = new System.Windows.Forms.TextBox();
             this.btn_search_departures = new System.Windows.Forms.Button();
+            this.lbl_to = new System.Windows.Forms.Label();
+            this.lbl_from = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // box_start
@@ -46,6 +46,7 @@
             this.box_start.Name = "box_start";
             this.box_start.Size = new System.Drawing.Size(530, 21);
             this.box_start.TabIndex = 1;
+            this.box_start.TabStop = false;
             // 
             // box_dest
             // 
@@ -54,24 +55,7 @@
             this.box_dest.Name = "box_dest";
             this.box_dest.Size = new System.Drawing.Size(530, 21);
             this.box_dest.TabIndex = 3;
-            // 
-            // lbl_from
-            // 
-            this.lbl_from.AutoSize = true;
-            this.lbl_from.Location = new System.Drawing.Point(9, 48);
-            this.lbl_from.Name = "lbl_from";
-            this.lbl_from.Size = new System.Drawing.Size(26, 13);
-            this.lbl_from.TabIndex = 2;
-            this.lbl_from.Text = "Von";
-            // 
-            // lbl_to
-            // 
-            this.lbl_to.AutoSize = true;
-            this.lbl_to.Location = new System.Drawing.Point(9, 94);
-            this.lbl_to.Name = "lbl_to";
-            this.lbl_to.Size = new System.Drawing.Size(33, 13);
-            this.lbl_to.TabIndex = 3;
-            this.lbl_to.Text = "Nach";
+            this.box_dest.TabStop = false;
             // 
             // btn_search_connentions
             // 
@@ -89,7 +73,7 @@
             this.lst_list.Location = new System.Drawing.Point(12, 197);
             this.lst_list.Name = "lst_list";
             this.lst_list.Size = new System.Drawing.Size(570, 199);
-            this.lst_list.TabIndex = 5;
+            this.lst_list.TabIndex = 6;
             // 
             // txt_start
             // 
@@ -112,16 +96,34 @@
             this.btn_search_departures.Location = new System.Drawing.Point(377, 150);
             this.btn_search_departures.Name = "btn_search_departures";
             this.btn_search_departures.Size = new System.Drawing.Size(75, 23);
-            this.btn_search_departures.TabIndex = 6;
+            this.btn_search_departures.TabIndex = 5;
             this.btn_search_departures.Text = "Abfahrtsliste";
             this.btn_search_departures.UseVisualStyleBackColor = true;
             this.btn_search_departures.Click += new System.EventHandler(this.btn_search_departures_Click);
+            // 
+            // lbl_to
+            // 
+            this.lbl_to.AutoSize = true;
+            this.lbl_to.Location = new System.Drawing.Point(9, 94);
+            this.lbl_to.Name = "lbl_to";
+            this.lbl_to.Size = new System.Drawing.Size(33, 13);
+            this.lbl_to.TabIndex = 3;
+            this.lbl_to.Text = "Nach";
+            // 
+            // lbl_from
+            // 
+            this.lbl_from.AutoSize = true;
+            this.lbl_from.Location = new System.Drawing.Point(9, 48);
+            this.lbl_from.Name = "lbl_from";
+            this.lbl_from.Size = new System.Drawing.Size(26, 13);
+            this.lbl_from.TabIndex = 2;
+            this.lbl_from.Text = "Von";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 450);
+            this.ClientSize = new System.Drawing.Size(594, 420);
             this.Controls.Add(this.btn_search_departures);
             this.Controls.Add(this.txt_dest);
             this.Controls.Add(this.txt_start);
@@ -131,8 +133,13 @@
             this.Controls.Add(this.lbl_from);
             this.Controls.Add(this.box_dest);
             this.Controls.Add(this.box_start);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(610, 459);
+            this.MinimumSize = new System.Drawing.Size(610, 459);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "ÖV App";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -142,13 +149,13 @@
 
         private System.Windows.Forms.ComboBox box_start;
         private System.Windows.Forms.ComboBox box_dest;
-        private System.Windows.Forms.Label lbl_from;
-        private System.Windows.Forms.Label lbl_to;
         private System.Windows.Forms.Button btn_search_connentions;
         private System.Windows.Forms.ListBox lst_list;
         private System.Windows.Forms.TextBox txt_start;
         private System.Windows.Forms.TextBox txt_dest;
         private System.Windows.Forms.Button btn_search_departures;
+        private System.Windows.Forms.Label lbl_to;
+        private System.Windows.Forms.Label lbl_from;
     }
 }
 

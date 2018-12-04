@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using SwissTransport;
 
 namespace SwissTransportUI
@@ -13,15 +9,11 @@ namespace SwissTransportUI
 
         public List<string> SearchDest(string textDest)
         {
-            List<string> stationsList = new List<string>();
-            Stations stations = _transport.GetStations(textDest);
+            var stationsList = new List<string>();
+            var stations = _transport.GetStations(textDest);
             foreach (var item in stations.StationList)
-            {
                 if (item.Name != null)
-                {
                     stationsList.Add(item.Name);
-                }
-            }
 
             return stationsList;
         }

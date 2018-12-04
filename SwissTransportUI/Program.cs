@@ -3,13 +3,13 @@ using System.Windows.Forms;
 
 namespace SwissTransportUI
 {
-    internal static class Program
+    class Program
     {
         /// <summary>
         ///     Der Haupteinstiegspunkt für die Anwendung.
         /// </summary>
         [STAThread]
-        private static void Main()
+        static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
