@@ -1,0 +1,5 @@
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\0\b\tests\SwissTransportTest\bin\Debug\SwissTransportTest.dll
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\0\i\SwissTransportTest\Debug\SwissTransportTest.csprojAssemblyReference.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\0\i\SwissTransportTest\Debug\SwissTransportTest.csproj.CoreCompileInputs.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\0\i\SwissTransportTest\Debug\SwissTransportTest.csproj.CopyComplete
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\0\i\SwissTransportTest\Debug\SwissTransportTest.dll

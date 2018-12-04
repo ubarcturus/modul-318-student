@@ -1,0 +1,8 @@
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\5116\b\SwissTransportUI\bin\Debug\SwissTransportUI.exe.config
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\5116\b\SwissTransportUI\bin\Debug\SwissTransportUI.exe
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\5116\i\SwissTransportUI\Debug\SwissTransportUI.Form1.resources
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\5116\i\SwissTransportUI\Debug\SwissTransportUI.Properties.Resources.resources
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\5116\i\SwissTransportUI\Debug\SwissTransportUI.csproj.GenerateResource.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\5116\i\SwissTransportUI\Debug\SwissTransportUI.csproj.CoreCompileInputs.cache
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\5116\i\SwissTransportUI\Debug\SwissTransportUI.csproj.CopyComplete
+C:\Users\ubarc\Documents\MEGA\Code\ÜK318\Projekt\Code\.vs\modul-318-student\lut\5116\i\SwissTransportUI\Debug\SwissTransportUI.exe
